@@ -1,0 +1,28 @@
+.botonSuma{
+    background: green;
+    margin-left: 24px;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px 14px;
+    position: relative;
+    bottom: 14px
+}
+
+div{
+    text-align: center;
+    position:relative;
+    font-size: 50px;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.116);
+    
+}
+
+.botonResta{
+    background: rgb(238, 63, 63);
+    margin-right: 10px;
+    text-decoration: none;
+    border-radius: 3px;
+    padding: 10px 15px;
+    position: relative;
+    bottom: 13px
+}

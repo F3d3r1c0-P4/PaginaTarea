@@ -1,0 +1,36 @@
+div{
+    background-color: rgba(99, 83, 83, 0.185);
+    border: 1px solid white;  
+    font-size: 15px;
+}
+
+
+.menu{
+    list-style:none;
+    padding: 10px;
+    background-color: rgba(31, 27, 27, 0.0);
+    width: 90%;
+    margin:auto;
+    max-width: 1000px;
+  
+}
+
+.menu li a{
+    text-decoration: none;
+    color: white;
+    margin-left: 175px;
+    padding: 10px;
+
+
+
+}
+
+.menu li{
+    display: inline-block;
+    text-align: center;
+}
+
+.menu li a:hover{
+    background: red;
+}
+

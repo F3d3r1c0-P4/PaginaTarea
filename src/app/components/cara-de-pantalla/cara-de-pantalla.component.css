@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+
+}
+
+
+#contenido{
+    min-width: none;
+    height: 420px;
+
+}
+
+
+article{
+    color: white;
+    margin-top: 15px;
+    margin-bottom: px;
+    
+}
+
+
+h1{
+    text-align: center;
+    height: 65px;
+    width: 1280px;
+    background-color: rgba(211, 211, 211, 0.342);
+
+}
+
+
+footer{
+    background-color: lightgrey;
+    text-align: left;
+    height: 50px;
+    line-height: 40px;
+    border: 5px solid lightgrey;
+
+}
+
+
+#footexto{
+    text-align: center;
+    color:black;
+    position: relative;
+    bottom: 13px;
+    
+}
+
