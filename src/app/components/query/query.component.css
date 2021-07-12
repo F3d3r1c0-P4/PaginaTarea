@@ -1,0 +1,16 @@
+h1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+h2{
+    color: wheat;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    border: 1px solid white;
+    background: rgba(255, 255, 255, 0.116);
+}

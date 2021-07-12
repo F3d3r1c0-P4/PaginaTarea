@@ -7,9 +7,8 @@ import { BannerComponent } from './components/banner/banner.component';
 import { NavComponent } from './components/nav/nav.component';
 import { CaraDePantallaComponent } from './components/cara-de-pantalla/cara-de-pantalla.component';
 import { ContadorComponent } from './components/contador/contador.component';
-import { Route } from '@angular/compiler/src/core';
-import { RouterModule, Routes } from '@angular/router';
 import { QueryComponent } from './components/query/query.component';
+import { Error404Component } from './components/error404/error404.component';
 
 
 
@@ -20,7 +19,8 @@ import { QueryComponent } from './components/query/query.component';
     NavComponent,
     CaraDePantallaComponent,
     ContadorComponent,
-    QueryComponent
+    QueryComponent,
+    Error404Component
   ],
   imports: [
     BrowserModule,

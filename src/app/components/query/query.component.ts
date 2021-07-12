@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
 
 @Component({
   selector: 'app-query',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class QueryComponent implements OnInit {
 
-  constructor() { }
-
+  public varQuery:string;
+  
+  constructor(private route:ActivatedRoute) {
+    
+  }
+  
   ngOnInit(): void {
+    this.varQuery = this.route.snapshot.queryParams.paginaquery
+
   }
 
 }
